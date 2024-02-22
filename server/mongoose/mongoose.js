@@ -1,9 +1,8 @@
 // mongooseInstance.js
 const mongoose = require("mongoose");
 
-const mongoDBUri =
-  "mongodb+srv://user_2023_ar:BZLERIJrd2sSoAP5@cluster0.vn4zl3w.mongodb.net/Cyclone?retryWrites=true&w=majority";
-
+const mongoDBUri ="mongodb url"
+ 
 //or user message
 
 mongoose.connect(mongoDBUri, {

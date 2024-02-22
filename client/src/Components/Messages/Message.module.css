@@ -1,0 +1,9 @@
+.selectedname{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #ccdee0;
+  /* gap: 10vw; */
+}
+.Groups {
+  padding-top: 20px;
+  height: 100%;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #37474f;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.selectedname {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-size: larger;
+  font-weight: bold;
+  color: wheat;
+  background-color: #37474f;
+}
+.login {
+  width: 100%;
+  background-color: #41545d;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: none;
+  gap: 10px;
+  color: white;
+}
+
+.login input {
+  width: 30%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #41545d;
+}
+.message {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #dee4e7;
+  justify-content: space-around;
+  /* gap: 5px; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.inputfiled {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.input {
+  margin-left: 5px;
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 0px;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 17px;
+}
+.input:active {
+}
+.input::placeholder {
+  color: gray;
+}
+.content {
+  width: 100%;
+  height: 90%;
+  background-color: azure;
+  overflow: auto;
+  font-size: 13px;
+}
+/* For WebKit browsers (Chrome, Safari) */
+.content::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Handle */
+.content::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Handle on hover */
+.content:hover::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Track */
+.content::-webkit-scrollbar-track {
+  background: transparent;
+}

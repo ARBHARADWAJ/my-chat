@@ -1,0 +1,132 @@
+.maincont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: medium;
+  color: rgb(248, 245, 241);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+.input {
+  font-size: 14px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.input:active {
+}
+.input::placeholder {
+  color: gray;
+}
+
+.unreadtitle {
+  font-size: medium;
+  color: rgb(223, 238, 232);
+  text-align: center;
+  padding: 10px;
+}
+
+.unread {
+  width: 90%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(36, 207, 90);
+  color: rgb(223, 238, 232);
+}
+
+.cont {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  /* background-color: blue; */
+  /* overflow: scroll; */
+  scrollbar-width: thin;
+
+  font-size: 12px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.usernames {
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: left;
+  padding-left: 20%;
+}
+.name:hover {
+  background-color: rgb(27, 35, 42);
+  cursor: pointer;
+}
+.names {
+  height: fit-content;
+  background-color: rgb(234, 230, 222);
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+.names:hover {
+  background-color: rgb(215, 214, 210);
+}
+/* .names:{
+    background-color: rgb(215, 214, 210);
+} */
+
+.ours {
+  color: #ffffff;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: orange;
+  width: 90%;
+  /* height: fit-content; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.my {
+  background-color: #dee4ef;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.friend {
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}

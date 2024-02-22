@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 5px;
+}
+.othermessage {
+  margin-left: 10px;
+  width: 30%;
+  padding-left: 15px;
+  padding-top: 10px;
+  /* background: linear-gradient(to left, #fef9a7, #fac213, #f77e21, #d61c4e); */
+  background-color: #fdff00;
+  /* color: rgb(15, 40, 16); */
+  color: black;
+  font-size: small;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  border-radius: 5px 5px 5px 0px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.time {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-bottom: 2px;
+}

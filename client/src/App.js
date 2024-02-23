@@ -161,27 +161,3 @@ function App() {
 
 export default App;
 
-{
-  /* <button
-  onClick={() => {
-    socket.emit("friend_message", {
-      message: message,
-      selected: selected,
-    });
-    setMessage("");
-  }}
->
-  Send
-</button> */
-}
-{
-  /* <button onClick={sendMessage}> Send Message</button> */
-}
-// const sendMessage = () => {
-//   socket.emit("send_message", { message, room });
-// };
-// socket.on("receive_message", (data) => {
-//   console.log(data);
-//   setMessageReceived((prevMessages) => [...prevMessages, data]);
-//   console.log(messageReceived);
-// });

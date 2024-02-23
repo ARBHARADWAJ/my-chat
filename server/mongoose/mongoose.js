@@ -1,8 +1,8 @@
 // mongooseInstance.js
 const mongoose = require("mongoose");
 
-const mongoDBUri ="mongodb url"
- 
+const mongoDBUri ="your mongodb online db link"
+
 //or user message
 
 mongoose.connect(mongoDBUri, {

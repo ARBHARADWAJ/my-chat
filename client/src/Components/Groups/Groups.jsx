@@ -58,11 +58,7 @@ const Groups = ({
       }
     });
   }
-  // function generateFriends() {
-  //   setUnread(["ramesh", "suresh", "rajesh", "vikram"]);
-  //   setList(["raja", "venket", "roja", "akasam", "ahuti", "prasad"]);
-  //   // return ;
-  // }
+
 
   return (
     <div className={styles.maincont}>
@@ -91,9 +87,6 @@ const Groups = ({
         }}
         onClick={() => setAlert(true)}
       />
-      {/* thisis for the show fo members whenthe search name is displayed */}
-
-      {/* Display friends list or search results */}
       {alert === false ? (
         // Display the regular friends list
         <div className={styles.cont}>
